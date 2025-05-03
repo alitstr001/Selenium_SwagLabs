@@ -51,10 +51,10 @@ This project automates end-to-end UI testing for the [SwagLabs demo website](htt
 src
 ├── main
 │   └── java
-│       └── com.yourproject.base       # Base classes (WebDriver manager, config)
+│       └── PID_PageName       # Base classes (WebDriver manager, config)
 ├── test
 │   └── java
-│       └── com.yourproject.tests      # Test cases
+│       └── TCID_PageName      # Test cases
 ├── listeners                          # Custom TestNG listeners
 ├── utils                              # Utilities (screenshots, waits, etc.)
 ├── logs                               # Log output directory
