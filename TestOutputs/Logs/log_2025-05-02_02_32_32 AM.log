@@ -1,0 +1,12 @@
+[INFO] 02-05-2025 02:32:32 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : validLoginTC started
+[INFO] 02-05-2025 02:32:33 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test casevalidLoginTCfailed
+[ERROR] 02-05-2025 02:32:44 [main] [Utilities.Utility.takeNewScreenshot(Utility.java:79)] - no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
+  (Session info: MicrosoftEdge=135.0.3179.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f8d3d0a239fed92d30e980d1f7b3c88d, findElement {value=shopping_cart_badge, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54760}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54760/devtoo..., se:cdpVersion: 135.0.3179.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f8d3d0a239fed92d30e980d1f7b3c88d
+[INFO] 02-05-2025 02:32:44 [main] [Listeners.ITestResultsListenerClass.onTestFailure(ITestResultsListenerClass.java:18)] - Test case : validLoginTC failed

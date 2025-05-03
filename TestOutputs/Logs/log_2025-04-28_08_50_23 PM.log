@@ -1,0 +1,5 @@
+[INFO] 28-04-2025 20:50:23 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:35)] - Chrome WebDriver is All Set
+[INFO] 28-04-2025 20:50:24 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:37)] - Url Redirected Successfully
+[INFO] 28-04-2025 20:50:24 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : validLoginTC started
+[INFO] 28-04-2025 20:50:25 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 28-04-2025 20:50:25 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : validLoginTC passed successfully

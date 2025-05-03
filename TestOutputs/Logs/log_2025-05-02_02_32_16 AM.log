@@ -1,0 +1,10 @@
+[INFO] 02-05-2025 02:32:16 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : validLoginTC started
+[INFO] 02-05-2025 02:32:17 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:33)] - Test casevalidLoginTCfailed
+[ERROR] 02-05-2025 02:32:24 [main] [Utilities.Utility.takeNewScreenshot(Utility.java:79)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a6778eede0dc34361ff62b0fdeb9cdef, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 135.0.3179.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54718}, msedge: {msedgedriverVersion: 135.0.3179.98 (4215a10badb6..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54718/devtoo..., se:cdpVersion: 135.0.3179.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a6778eede0dc34361ff62b0fdeb9cdef
+[INFO] 02-05-2025 02:32:24 [main] [Listeners.ITestResultsListenerClass.onTestFailure(ITestResultsListenerClass.java:18)] - Test case : validLoginTC failed

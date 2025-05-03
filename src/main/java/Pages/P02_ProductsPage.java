@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.util.Set;
 
-public class P02_LandingPage {
+public class P02_ProductsPage {
     static float totalPrice = 0;
     private static List<WebElement> allProducts;
     private static List<WebElement> selectedProducts;
@@ -20,7 +20,7 @@ public class P02_LandingPage {
     private final By selectedProductsPrices = By.xpath("(//button[.=\"Remove\"]//preceding-sibling::div[@class='inventory_item_price'])");
     private final WebDriver driver;
 
-    public P02_LandingPage(WebDriver driver) {
+    public P02_ProductsPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -28,7 +28,7 @@ public class P02_LandingPage {
         return numberOfProductsOnCartIcon;
     }
 
-    public P02_LandingPage addAllProductsToCart() {
+    public P02_ProductsPage addAllProductsToCart() {
         allProducts = driver.findElements(addToCartButtonForAllProducts);
         LogsUtils.info("Number of All Products: " + allProducts.size());
         for (int i = 1; i <= allProducts.size(); i++) {
@@ -59,7 +59,7 @@ public class P02_LandingPage {
         }
     }
 
-    public P02_LandingPage addRandomProducts(int numberOfSelectedProducts, int totalNumberOfProducts) {
+    public P02_ProductsPage addRandomProducts(int numberOfSelectedProducts, int totalNumberOfProducts) {
         Set<Integer> randomNumbers = Utility.generateUniqueNumber(numberOfSelectedProducts, totalNumberOfProducts);
         for (int random : randomNumbers) {
             LogsUtils.info("Random Number : " + random);

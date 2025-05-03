@@ -1,0 +1,78 @@
+[INFO] 30-04-2025 22:03:35 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:35)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:36 [main] [Tests.TC01_LoginPage.setup(TC01_LoginPage.java:37)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:36 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : validLoginTC started
+[INFO] 30-04-2025 22:03:36 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 30-04-2025 22:03:36 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : validLoginTC passed successfully
+[INFO] 30-04-2025 22:03:39 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:34)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:40 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:40 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : checkingSelectedProductsTC started
+[INFO] 30-04-2025 22:03:40 [main] [Pages.P02_ProductsPage.addAllProductsToCart(P02_LandingPage.java:33)] - Number of All Products: 6
+[INFO] 30-04-2025 22:03:41 [main] [Pages.P02_ProductsPage.comparingNumberOfSelectedProductsWithCart(P02_LandingPage.java:76)] - Number Of Selected Products Matched The cart Number successfully!!
+[INFO] 30-04-2025 22:03:41 [main] [Pages.P02_ProductsPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - Number Of Selected Products : 6
+[INFO] 30-04-2025 22:03:41 [main] [Pages.P02_ProductsPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - Number Of Selected Products : 6
+[INFO] 30-04-2025 22:03:41 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : checkingSelectedProductsTC passed successfully
+[INFO] 30-04-2025 22:03:43 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:34)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:44 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:44 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : selectRandomProductTC started
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 2
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 3
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 6
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:71)] - Selected Products are : [2, 3, 6]
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.comparingNumberOfSelectedProductsWithCart(P02_LandingPage.java:76)] - Number Of Selected Products Matched The cart Number successfully!!
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - Number Of Selected Products : 3
+[INFO] 30-04-2025 22:03:45 [main] [Pages.P02_ProductsPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - Number Of Selected Products : 3
+[INFO] 30-04-2025 22:03:45 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : selectRandomProductTC passed successfully
+[INFO] 30-04-2025 22:03:47 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:34)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:49 [main] [Tests.TC02_LandingPage.setup(TC02_LandingPage.java:36)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:49 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : verifyClickingOnCartTC started
+[INFO] 30-04-2025 22:03:49 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 30-04-2025 22:03:49 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : verifyClickingOnCartTC passed successfully
+[INFO] 30-04-2025 22:03:51 [main] [Tests.TC03_CartPage.setup(TC03_CartPage.java:33)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:53 [main] [Tests.TC03_CartPage.setup(TC03_CartPage.java:35)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:53 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : VerifyingCartTotalPriceTC started
+[INFO] 30-04-2025 22:03:53 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 2
+[INFO] 30-04-2025 22:03:53 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 5
+[INFO] 30-04-2025 22:03:53 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 6
+[INFO] 30-04-2025 22:03:54 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:71)] - Selected Products are : [2, 5, 6]
+[INFO] 30-04-2025 22:03:54 [main] [Pages.P02_ProductsPage.getTotalPriceForSelectedProducts(P02_LandingPage.java:95)] - Total Price is : 33.97
+[INFO] 30-04-2025 22:03:54 [main] [Pages.P03_CartPage.getTotalPrices(P03_CartPage.java:30)] - Total Price is : 33.97
+[INFO] 30-04-2025 22:03:54 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : VerifyingCartTotalPriceTC passed successfully
+[INFO] 30-04-2025 22:03:56 [main] [Tests.TC04_CheckOutPage.setup(TC04_CheckOutPage.java:37)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:03:58 [main] [Tests.TC04_CheckOutPage.setup(TC04_CheckOutPage.java:39)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:03:58 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : completeCheckOut_STEP_ONE_TC started
+[INFO] 30-04-2025 22:03:58 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 3
+[INFO] 30-04-2025 22:03:58 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:65)] - Random Number : 6
+[INFO] 30-04-2025 22:03:58 [main] [Pages.P02_ProductsPage.addRandomProducts(P02_LandingPage.java:71)] - Selected Products are : [3, 6]
+[INFO] 30-04-2025 22:03:58 [main] [Pages.P04_CheckoutPage.fillingFormData(P04_CheckoutPage.java:23)] - First Name is :Jhon-2025-04-30-10-3-31PM
+Last Name is :Doe-2025-04-30-10-3-31PM
+ZipCode is :73519
+
+[INFO] 30-04-2025 22:03:59 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 30-04-2025 22:03:59 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : completeCheckOut_STEP_ONE_TC passed successfully
+[INFO] 30-04-2025 22:04:01 [main] [Tests.TC05_OverViewPage.setup(TC05_OverViewPage.java:37)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:04:03 [main] [Tests.TC05_OverViewPage.setup(TC05_OverViewPage.java:39)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:04:03 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : validateTotalPriceTC started
+[INFO] 30-04-2025 22:04:03 [main] [Pages.P02_ProductsPage.addAllProductsToCart(P02_LandingPage.java:33)] - Number of All Products: 6
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P04_CheckoutPage.fillingFormData(P04_CheckoutPage.java:23)] - First Name is :Jhon-2025-04-30-10-3-31PM
+Last Name is :Doe-2025-04-30-10-3-31PM
+ZipCode is :57719
+
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.getSubTotal(P05_OverViewPage.java:20)] - The Order Total Before Adding Taxes : 129.94
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.getTax(P05_OverViewPage.java:26)] - The Taxes : 10.40
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.calculateTotalPrice(P05_OverViewPage.java:36)] - The Calculated Order Total After Adding Taxes : 140.34
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.getSubTotal(P05_OverViewPage.java:20)] - The Order Total Before Adding Taxes : 129.94
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.getTax(P05_OverViewPage.java:26)] - The Taxes : 10.40
+[INFO] 30-04-2025 22:04:04 [main] [Pages.P05_OverViewPage.getTotal(P05_OverViewPage.java:31)] - The Actual Order Total After Adding Taxes : 140.34
+[INFO] 30-04-2025 22:04:04 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 30-04-2025 22:04:04 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : validateTotalPriceTC passed successfully
+[INFO] 30-04-2025 22:04:06 [main] [Tests.TC6_OrderConfirmationPage.setup(TC6_OrderConfirmationPage.java:36)] - Chrome WebDriver is All Set
+[INFO] 30-04-2025 22:04:08 [main] [Tests.TC6_OrderConfirmationPage.setup(TC6_OrderConfirmationPage.java:38)] - Url Redirected Successfully
+[INFO] 30-04-2025 22:04:08 [main] [Listeners.ITestResultsListenerClass.onTestStart(ITestResultsListenerClass.java:9)] - Test case : checkWelcomeMessageTC started
+[INFO] 30-04-2025 22:04:08 [main] [Pages.P02_ProductsPage.addAllProductsToCart(P02_LandingPage.java:33)] - Number of All Products: 6
+[INFO] 30-04-2025 22:04:08 [main] [Pages.P04_CheckoutPage.fillingFormData(P04_CheckoutPage.java:23)] - First Name is :Jhon-2025-04-30-10-3-31PM
+Last Name is :Doe-2025-04-30-10-3-31PM
+ZipCode is :76536
+
+[INFO] 30-04-2025 22:04:09 [main] [Pages.P06_OrderConfirmationPage.checkMessageVisibility(P06_OrderConfirmationPage.java:20)] - Order Completed Successfully!!
+[INFO] 30-04-2025 22:04:09 [main] [Utilities.Utility.verifyUrlRedirection(Utility.java:104)] - The URL Matches Successfully!
+[INFO] 30-04-2025 22:04:09 [main] [Listeners.ITestResultsListenerClass.onTestSuccess(ITestResultsListenerClass.java:13)] - Test case : checkWelcomeMessageTC passed successfully

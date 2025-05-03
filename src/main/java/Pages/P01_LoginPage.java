@@ -10,6 +10,7 @@ public class P01_LoginPage {
     private final By passwordField = By.id("password");
     private final By loginBtn = By.id("login-button");
 
+
     public P01_LoginPage(WebDriver driver) {
         this.driver = driver;
     }
@@ -24,13 +25,10 @@ public class P01_LoginPage {
         return this;
     }
 
-    public P02_LandingPage clickOnLogin() {
+    public P02_ProductsPage clickOnLogin() {
         Utility.clickOnElement(driver, loginBtn);
-        return new P02_LandingPage(driver);
+        return new P02_ProductsPage(driver);
     }
 
-    public boolean assertLoginTC(String expectedValue) {
-        return driver.getCurrentUrl().equals(expectedValue);
-    }
 
 }
