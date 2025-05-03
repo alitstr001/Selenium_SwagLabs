@@ -69,5 +69,5 @@ src
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/swaglabs-automation.git
-cd swaglabs-automation
+git clone https://github.com/OmarAly07/Selenium_SwagLabs.git
+cd Selenium_SwagLabs
