@@ -11,4 +11,9 @@ public class TC07_DemoClass {
     public boolean isOlder(double age) {
         return age > 60.0;
     }
+    //add isMan method
+    public boolean isMan(String type){
+        return type.equalsIgnoreCase("man");
+    }
+
 }
